@@ -1,0 +1,42 @@
+{
+  "name": "ssim",
+  "version": "0.0.0",
+  "description": "The structural similarity (SSIM) index is a method for measuring the similarity between two images. The SSIM index is a full reference metric; in other words, the measuring of image quality based on an initial uncompressed or distortion-free image as reference. SSIM is designed to improve on traditional methods like peak signal-to-noise ratio (PSNR) and mean squared error (MSE), which have proven to be inconsistent with human eye perception.",
+  "main": "src/ssim.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bytespider/ssim"
+  },
+  "keywords": [
+    "psnr",
+    "mse",
+    "ratio",
+    "signal",
+    "structural",
+    "similarity"
+  ],
+  "author": {
+    "name": "Rob Griffiths",
+    "email": "rob@bytespider.eu",
+    "url": "http://bytespider.eu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bytespider/ssim/issues"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8",
+    "average": "0.0.1"
+  },
+  "dependencies": {
+    "average": "~0.0.1",
+    "variance": "~0.0.1",
+    "covariance": "~0.0.0"
+  }
+}
